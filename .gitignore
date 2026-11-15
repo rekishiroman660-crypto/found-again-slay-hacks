@@ -1,0 +1,5 @@
+app/vendor/
+app/models/
+_site/
+__pycache__/
+*.pyc

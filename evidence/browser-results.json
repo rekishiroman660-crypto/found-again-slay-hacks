@@ -1,0 +1,629 @@
+{
+  "fixture_sha256": "7dc01b86959993a3d94012bf591c07d996e20b5e2898fb2419ff8a1681597f0c",
+  "label": "Synthetic, hand-written acceptance fixture; no real users. Frozen before first model evaluation. Not a representative benchmark.",
+  "first_load_and_search_seconds": 1.9086666107177734,
+  "rows": [
+    {
+      "id": "P01",
+      "query": "I left a navy raincoat with a broken zip in the library",
+      "expected": 0,
+      "semantic": 0,
+      "semanticHits": [
+        {
+          "text": "Blue waterproof jacket with damaged zipper at library counter",
+          "index": 0,
+          "score": 0.6259376148309308
+        },
+        {
+          "text": "Navy tote bag with orange patch by library stairs",
+          "index": 1,
+          "score": 0.4465614264937317
+        }
+      ],
+      "baseline": 0,
+      "baselineHits": [
+        {
+          "text": "Blue waterproof jacket with damaged zipper at library counter",
+          "score": 0.8199812426726405,
+          "index": 0,
+          "shared": [
+            "blue",
+            "jacket",
+            "damaged",
+            "zipper",
+            "library"
+          ]
+        },
+        {
+          "text": "Navy tote bag with orange patch by library stairs",
+          "score": 0.22622678958887693,
+          "index": 1,
+          "shared": [
+            "blue",
+            "library"
+          ]
+        },
+        {
+          "text": "Blue folding umbrella with plastic handle at west entrance",
+          "score": 0.08693175846317808,
+          "index": 6,
+          "shared": [
+            "blue"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 17.299999997019768
+    },
+    {
+      "id": "P02",
+      "query": "Something I wear outdoors to keep the rain off has a fastener that will not close",
+      "expected": 0,
+      "semantic": null,
+      "semanticHits": [],
+      "baseline": null,
+      "baselineHits": [],
+      "clarificationActual": true,
+      "ms": 0.10000000149011612
+    },
+    {
+      "id": "P03",
+      "query": "My drink container is dark metal and the cap is green",
+      "expected": 2,
+      "semantic": 2,
+      "semanticHits": [
+        {
+          "text": "Black metal water bottle with green lid near gym benches",
+          "index": 2,
+          "score": 0.5524048051590228
+        }
+      ],
+      "baseline": 2,
+      "baselineHits": [
+        {
+          "text": "Black metal water bottle with green lid near gym benches",
+          "score": 0.1708055000111554,
+          "index": 2,
+          "shared": [
+            "metal",
+            "green"
+          ]
+        },
+        {
+          "text": "Green backpack with two padded shoulder straps at bus stop",
+          "score": 0.07047183723967035,
+          "index": 7,
+          "shared": [
+            "green"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 15.899999998509884
+    },
+    {
+      "id": "P04",
+      "query": "The thing I listen to songs with has a cable and is silver",
+      "expected": 3,
+      "semantic": 3,
+      "semanticHits": [
+        {
+          "text": "Silver headphones with blue cord in music room",
+          "index": 3,
+          "score": 0.5999958499144992
+        }
+      ],
+      "baseline": 3,
+      "baselineHits": [
+        {
+          "text": "Silver headphones with blue cord in music room",
+          "score": 0.13103349730626881,
+          "index": 3,
+          "shared": [
+            "silver"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 17.400000002235174
+    },
+    {
+      "id": "P05",
+      "query": "I carried sandwiches in a yellow pouch that keeps food cool",
+      "expected": 5,
+      "semantic": 5,
+      "semanticHits": [
+        {
+          "text": "Yellow insulated lunch bag with floral print in cafeteria",
+          "index": 5,
+          "score": 0.5149793999956397
+        }
+      ],
+      "baseline": 5,
+      "baselineHits": [
+        {
+          "text": "Yellow insulated lunch bag with floral print in cafeteria",
+          "score": 0.10964042414202654,
+          "index": 5,
+          "shared": [
+            "yellow"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 12.5
+    },
+    {
+      "id": "P06",
+      "query": "A sack worn on my back with a pair of cushioned straps",
+      "expected": 7,
+      "semantic": 7,
+      "semanticHits": [
+        {
+          "text": "Green backpack with two padded shoulder straps at bus stop",
+          "index": 7,
+          "score": 0.53539294390116
+        }
+      ],
+      "baseline": 7,
+      "baselineHits": [
+        {
+          "text": "Green backpack with two padded shoulder straps at bus stop",
+          "score": 0.11911020959155287,
+          "index": 7,
+          "shared": [
+            "straps"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 13.599999997764826
+    },
+    {
+      "id": "P07",
+      "query": "My collapsible rain shield has a wooden grip",
+      "expected": 4,
+      "semantic": null,
+      "semanticHits": [],
+      "baseline": 4,
+      "baselineHits": [
+        {
+          "text": "Red folding umbrella with wooden handle at east entrance",
+          "score": 0.1371487846616284,
+          "index": 4,
+          "shared": [
+            "wooden"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 11.800000000745058
+    },
+    {
+      "id": "P08",
+      "query": "A blue shopping carrier with an orange badge",
+      "expected": 1,
+      "semantic": null,
+      "semanticHits": [],
+      "baseline": 1,
+      "baselineHits": [
+        {
+          "text": "Navy tote bag with orange patch by library stairs",
+          "score": 0.2319403831370417,
+          "index": 1,
+          "shared": [
+            "blue",
+            "orange"
+          ]
+        },
+        {
+          "text": "Blue folding umbrella with plastic handle at west entrance",
+          "score": 0.07020760041038875,
+          "index": 6,
+          "shared": [
+            "blue"
+          ]
+        },
+        {
+          "text": "Silver headphones with blue cord in music room",
+          "score": 0.06895857278230386,
+          "index": 3,
+          "shared": [
+            "blue"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 10.800000000745058
+    },
+    {
+      "id": "N01",
+      "query": "folding umbrella, not red",
+      "expected": 6,
+      "semantic": 6,
+      "semanticHits": [
+        {
+          "text": "Blue folding umbrella with plastic handle at west entrance",
+          "index": 6,
+          "score": 0.6921692167946809
+        }
+      ],
+      "baseline": 4,
+      "baselineHits": [
+        {
+          "text": "Red folding umbrella with wooden handle at east entrance",
+          "score": 0.49668318429351865,
+          "index": 4,
+          "shared": [
+            "red",
+            "folding",
+            "umbrella"
+          ]
+        },
+        {
+          "text": "Blue folding umbrella with plastic handle at west entrance",
+          "score": 0.30633322629464255,
+          "index": 6,
+          "shared": [
+            "folding",
+            "umbrella"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 6
+    },
+    {
+      "id": "N02",
+      "query": "folding umbrella, not blue",
+      "expected": 4,
+      "semantic": 4,
+      "semanticHits": [
+        {
+          "text": "Red folding umbrella with wooden handle at east entrance",
+          "index": 4,
+          "score": 0.7082004911995317
+        }
+      ],
+      "baseline": 6,
+      "baselineHits": [
+        {
+          "text": "Blue folding umbrella with plastic handle at west entrance",
+          "score": 0.42690925878622527,
+          "index": 6,
+          "shared": [
+            "blue",
+            "folding",
+            "umbrella"
+          ]
+        },
+        {
+          "text": "Red folding umbrella with wooden handle at east entrance",
+          "score": 0.314367015658422,
+          "index": 4,
+          "shared": [
+            "folding",
+            "umbrella"
+          ]
+        },
+        {
+          "text": "Silver headphones with blue cord in music room",
+          "score": 0.09330750533366498,
+          "index": 3,
+          "shared": [
+            "blue"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 5.600000001490116
+    },
+    {
+      "id": "N03",
+      "query": "blue item from the library, not a bag",
+      "expected": 0,
+      "semantic": 0,
+      "semanticHits": [
+        {
+          "text": "Blue waterproof jacket with damaged zipper at library counter",
+          "index": 0,
+          "score": 0.4692013317939447
+        }
+      ],
+      "baseline": 1,
+      "baselineHits": [
+        {
+          "text": "Navy tote bag with orange patch by library stairs",
+          "score": 0.33308545893124475,
+          "index": 1,
+          "shared": [
+            "blue",
+            "bag",
+            "library"
+          ]
+        },
+        {
+          "text": "Blue waterproof jacket with damaged zipper at library counter",
+          "score": 0.1985770863206152,
+          "index": 0,
+          "shared": [
+            "blue",
+            "library"
+          ]
+        },
+        {
+          "text": "Yellow insulated lunch bag with floral print in cafeteria",
+          "score": 0.12052219516592799,
+          "index": 5,
+          "shared": [
+            "bag"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 7.199999999254942
+    },
+    {
+      "id": "N04",
+      "query": "blue item from the library, not a jacket",
+      "expected": 1,
+      "semantic": 1,
+      "semanticHits": [
+        {
+          "text": "Navy tote bag with orange patch by library stairs",
+          "index": 1,
+          "score": 0.4255920778472198
+        }
+      ],
+      "baseline": 0,
+      "baselineHits": [
+        {
+          "text": "Blue waterproof jacket with damaged zipper at library counter",
+          "score": 0.367731905527009,
+          "index": 0,
+          "shared": [
+            "blue",
+            "jacket",
+            "library"
+          ]
+        },
+        {
+          "text": "Navy tote bag with orange patch by library stairs",
+          "score": 0.19787435137343348,
+          "index": 1,
+          "shared": [
+            "blue",
+            "library"
+          ]
+        },
+        {
+          "text": "Blue folding umbrella with plastic handle at west entrance",
+          "score": 0.07603681841091339,
+          "index": 6,
+          "shared": [
+            "blue"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 9
+    },
+    {
+      "id": "A01",
+      "query": "gold wrist watch with a leather band",
+      "expected": null,
+      "semantic": null,
+      "semanticHits": [],
+      "baseline": null,
+      "baselineHits": [],
+      "clarificationActual": false,
+      "ms": 8.699999999254942
+    },
+    {
+      "id": "A02",
+      "query": "orange prescription medicine in a pill box",
+      "expected": null,
+      "semantic": null,
+      "semanticHits": [],
+      "baseline": 1,
+      "baselineHits": [
+        {
+          "text": "Navy tote bag with orange patch by library stairs",
+          "score": 0.15131952374751537,
+          "index": 1,
+          "shared": [
+            "orange"
+          ]
+        }
+      ],
+      "clarificationActual": false,
+      "ms": 10.100000001490116
+    },
+    {
+      "id": "A03",
+      "query": "laptop computer with a cracked screen",
+      "expected": null,
+      "semantic": null,
+      "semanticHits": [],
+      "baseline": null,
+      "baselineHits": [],
+      "clarificationActual": false,
+      "ms": 7
+    },
+    {
+      "id": "E01",
+      "query": "",
+      "expected": null,
+      "semantic": null,
+      "semanticHits": [],
+      "baseline": null,
+      "baselineHits": [],
+      "clarificationActual": false,
+      "ms": 0.09999999776482582
+    },
+    {
+      "id": "X01",
+      "query": "umbrella, neither red nor blue",
+      "expected": null,
+      "clarification": true,
+      "semantic": null,
+      "semanticHits": [],
+      "baseline": 4,
+      "baselineHits": [
+        {
+          "text": "Red folding umbrella with wooden handle at east entrance",
+          "score": 0.3049332107129259,
+          "index": 4,
+          "shared": [
+            "red",
+            "umbrella"
+          ]
+        },
+        {
+          "text": "Blue folding umbrella with plastic handle at west entrance",
+          "score": 0.20886923059368823,
+          "index": 6,
+          "shared": [
+            "blue",
+            "umbrella"
+          ]
+        },
+        {
+          "text": "Silver headphones with blue cord in music room",
+          "score": 0.07468408613703197,
+          "index": 3,
+          "shared": [
+            "blue"
+          ]
+        }
+      ],
+      "clarificationActual": true,
+      "ms": 0
+    },
+    {
+      "id": "X02",
+      "query": "bag without a pattern",
+      "expected": null,
+      "clarification": true,
+      "semantic": null,
+      "semanticHits": [],
+      "baseline": 1,
+      "baselineHits": [
+        {
+          "text": "Navy tote bag with orange patch by library stairs",
+          "score": 0.14641866240901194,
+          "index": 1,
+          "shared": [
+            "bag"
+          ]
+        },
+        {
+          "text": "Yellow insulated lunch bag with floral print in cafeteria",
+          "score": 0.13628586093999417,
+          "index": 5,
+          "shared": [
+            "bag"
+          ]
+        }
+      ],
+      "clarificationActual": true,
+      "ms": 0
+    }
+  ],
+  "metrics": {
+    "modelCalls": 16,
+    "dimensions": 384,
+    "backend": "WASM / CPU",
+    "dtype": "q8"
+  },
+  "checks": [
+    {
+      "name": "inventory_reembedded",
+      "passed": true
+    },
+    {
+      "name": "loaded_tab_offline_search",
+      "passed": true,
+      "new_requests": 0
+    },
+    {
+      "name": "red_excluded",
+      "passed": true
+    },
+    {
+      "name": "mobile_no_horizontal_overflow",
+      "passed": true
+    },
+    {
+      "name": "inventory_xss_inert",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "requests": [
+    {
+      "url": "APP_ORIGIN/app/",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/style.css",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/app.js",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/search.js",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/engine.js",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/vendor/transformers.min.js",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/models/MiniLM/tokenizer.json",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/models/MiniLM/tokenizer_config.json",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/models/MiniLM/config.json",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/models/MiniLM/onnx/model_quantized.onnx",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/vendor/ort-wasm-simd-threaded.jsep.mjs",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "APP_ORIGIN/app/vendor/ort-wasm-simd-threaded.jsep.wasm",
+      "method": "GET",
+      "post_data": null
+    }
+  ],
+  "browser": "153.0.8010.0",
+  "time_utc": "2026-11-15T09:19:57Z",
+  "semantic_top1_exact": 15,
+  "baseline_top1_exact": 10
+}

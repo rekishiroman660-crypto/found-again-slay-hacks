@@ -1,0 +1,24 @@
+{
+ "label":"Synthetic, hand-written acceptance fixture; no real users. Frozen before first model evaluation. Not a representative benchmark.",
+ "threshold":0.4,
+ "cases":[
+ {"id":"P01","query":"I left a navy raincoat with a broken zip in the library","expected":0},
+ {"id":"P02","query":"Something I wear outdoors to keep the rain off has a fastener that will not close","expected":0},
+ {"id":"P03","query":"My drink container is dark metal and the cap is green","expected":2},
+ {"id":"P04","query":"The thing I listen to songs with has a cable and is silver","expected":3},
+ {"id":"P05","query":"I carried sandwiches in a yellow pouch that keeps food cool","expected":5},
+ {"id":"P06","query":"A sack worn on my back with a pair of cushioned straps","expected":7},
+ {"id":"P07","query":"My collapsible rain shield has a wooden grip","expected":4},
+ {"id":"P08","query":"A blue shopping carrier with an orange badge","expected":1},
+ {"id":"N01","query":"folding umbrella, not red","expected":6},
+ {"id":"N02","query":"folding umbrella, not blue","expected":4},
+ {"id":"N03","query":"blue item from the library, not a bag","expected":0},
+ {"id":"N04","query":"blue item from the library, not a jacket","expected":1},
+ {"id":"A01","query":"gold wrist watch with a leather band","expected":null},
+ {"id":"A02","query":"orange prescription medicine in a pill box","expected":null},
+ {"id":"A03","query":"laptop computer with a cracked screen","expected":null},
+ {"id":"E01","query":"","expected":null},
+ {"id":"X01","query":"umbrella, neither red nor blue","expected":null,"clarification":true},
+ {"id":"X02","query":"bag without a pattern","expected":null,"clarification":true}
+ ]
+}

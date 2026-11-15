@@ -1,0 +1,8 @@
+{
+  "name": "found-again",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/core.mjs"
+  }
+}
